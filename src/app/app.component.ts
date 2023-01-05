@@ -7,4 +7,46 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+  menuItems = [
+    {
+      name: "Employees Management",
+      icon: "people",
+      list: [
+        {
+          subMenu: "Employee Details",
+          link: "#"
+        },
+        {
+          subMenu: "Attendance",
+          link: "#"
+        },
+        {
+          subMenu: "Advance Salary",
+          link: "#"
+        },
+        {
+          subMenu: "Leaves",
+          link: "#"
+        },
+        {
+          subMenu: "Overtime",
+          link: "#"
+        },
+      ],
+    },
+    {
+      name: "Orders Management",
+      icon: "assignment",
+      list: [
+        {
+          subMenu: "Order Details",
+          link: "#"
+        },
+        {
+          subMenu: "Order XYZ",
+          link: "#"
+        },
+      ],
+    }
+  ];
 }

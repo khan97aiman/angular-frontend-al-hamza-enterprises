@@ -7,7 +7,8 @@
     margin: 0;
 }  
 .app-sidenav {
-    width: 230px;
+    width: 300px;
+    justify-content: center;
 }
 .app-sidenav-content {
     display: flex;
@@ -15,3 +16,14 @@
     align-items: center;
     justify-content: center;
 } 
+
+mat-icon {
+    padding-right: 10px
+}
+.mat-expansion-panel-spacing {
+    margin: 0;
+}
+
+.exp-panel-nav-list-item {
+    padding: 0%;
+}
