@@ -23,7 +23,27 @@ mat-icon {
 .mat-expansion-panel-spacing {
     margin: 0;
 }
-
+::ng-deep .mat-expansion-panel-body {
+    padding: 0 24px 0 !important;
+}
 .exp-panel-nav-list-item {
     padding: 0%;
+}
+
+.menu-item {
+    padding: 0 24px;
+    border-radius: inherit;
+    height: 48px;
+}
+
+.menu-item-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.menu-item-text {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }

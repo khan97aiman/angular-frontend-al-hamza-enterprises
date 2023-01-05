@@ -9,8 +9,15 @@ export class AppComponent {
   title = 'frontend';
   menuItems = [
     {
+      name: "Dashboard",
+      icon: "home",
+      link: "#",
+      list: [],
+    },
+    {
       name: "Employees Management",
       icon: "people",
+      link: "#",
       list: [
         {
           subMenu: "Employee Details",
@@ -37,6 +44,7 @@ export class AppComponent {
     {
       name: "Orders Management",
       icon: "assignment",
+      link: "#",
       list: [
         {
           subMenu: "Order Details",
